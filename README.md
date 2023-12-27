@@ -63,6 +63,7 @@ Program to verify the truth table in quartus for the basic logic gates using Ver
 Developed by: R. SUDHIR KUMAR
 RegisterNumber: 212223230221 
 */
+//dataflow /*
 module sample(a,b,yand,yor,ynot,yxor,ynand,ynor,yxnor);
 input a,b;
 output yand,yor,ynot,yxor,ynand,ynor,yxnor;
@@ -74,6 +75,7 @@ nand(ynand,a,b);
 nor(ynor,a,b);
 xnor(yxnor,a,b);
 endmodule
+//*/
 ## Truthtable :
 ![image](https://github.com/Sudhirr5/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/139332214/80c9d6eb-4e27-4cdb-9c40-8c4b7ce24394)
 
